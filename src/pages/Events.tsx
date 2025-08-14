@@ -4,7 +4,7 @@ import { Calendar, Clock, MapPin, Users, ExternalLink, Star, Zap, Code2, Brain }
 const Events = () => {
   const upcomingEvents = [
     {
-      date: "Aug 26",
+      date: "Aug 26(Tentative)",
       time: "9:00AM",
       title: "India OnChain Summit 2025",
       description: "A full-day Web3 & Blockchain campus drive featuring beginner-friendly sessions, live demos, AMA with experts, networking, swag drops, and hands-on learning — powered by Nexus Void AI & hosted by Code Rangers.",
@@ -16,7 +16,7 @@ const Events = () => {
       link: "https://google.com",
     },
     {
-      date: "Sept 1",
+      date: "Sept 1(Tentative)",
       time: "10:00AM",
       title: "Azure Developer Day",
       description: "This will be a 2-hour event designed to introduce college students to cutting-edge Azure technologies, real-world use cases, and cloud career opportunities, and also to internship opportunities in growing startups exclusively. The session will be delivered by experienced speakers from the Azure Developer Community.",
