@@ -13,7 +13,7 @@ const Events = () => {
       location: "TIIPS Campus",
       attendees: "200+",
       difficulty: "All Levels",
-      link: "https://google.com",
+      link: "https://forms.gle/1JYbtSHaowKCnAit9",
     },
     {
       date: "Sept 1(Tentative)",
@@ -25,7 +25,7 @@ const Events = () => {
       location: "Seminar Hall",
       attendees: "100+",
       difficulty: "Beginner",
-      link: "https://www.youtube.com/",
+      link: "https://forms.gle/1JYbtSHaowKCnAit9",
     },
     {
       date: "Oct 5",
@@ -37,7 +37,7 @@ const Events = () => {
       location: "Main Campus",
       attendees: 100,
       difficulty: "Intermediate",
-      link: "",
+      link: "https://forms.gle/1JYbtSHaowKCnAit9",
     },
     {
       date: "Nov 15",
@@ -49,7 +49,7 @@ const Events = () => {
       location: "TBD",
       attendees: 200,
       difficulty: "All Levels",
-      link: "",
+      link: "https://forms.gle/1JYbtSHaowKCnAit9",
     },
   ];
 
