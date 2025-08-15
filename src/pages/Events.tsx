@@ -13,7 +13,9 @@ const Events = () => {
       location: "TIIPS Campus",
       attendees: "200+",
       difficulty: "All Levels",
-      link: "https://forms.gle/1JYbtSHaowKCnAit9",
+      link: "https://forms.gle/1JYbtSHaowKCnAit",
+      tentative: true,
+
     },
     {
       date: "Sept 1(Tentative)",
@@ -26,6 +28,8 @@ const Events = () => {
       attendees: "100+",
       difficulty: "Beginner",
       link: "https://forms.gle/1JYbtSHaowKCnAit9",
+      tentative: true,
+
     },
     {
       date: "Oct 5",
@@ -38,6 +42,8 @@ const Events = () => {
       attendees: 100,
       difficulty: "Intermediate",
       link: "https://forms.gle/1JYbtSHaowKCnAit9",
+      tentative: true,
+
     },
     {
       date: "Nov 15",
@@ -50,6 +56,8 @@ const Events = () => {
       attendees: 200,
       difficulty: "All Levels",
       link: "https://forms.gle/1JYbtSHaowKCnAit9",
+      tentative: true,
+
     },
   ];
 
@@ -103,7 +111,11 @@ const Events = () => {
                     <div className="flex items-center space-x-4">
                       <div className="text-center">
                         <div className="text-3xl font-bold text-cyan-400 font-mono">{event.date.split(" ")[1]}</div>
-                        <div className="text-sm text-gray-400 uppercase font-mono">{event.date.split(" ")[0]}</div>
+                       <div className="text-sm text-yellow-400 uppercase font-mono">{event.date.split(" ")[0]}
+                        </div>
+                        {event.tentative && (
+    <div className="text-xs text-gray-400 font-mono mt-1">(Tentative)</div>
+  )}
                       </div>
                       <div>
                         <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r ${event.color} text-white`}>{event.type}</span>
