@@ -14,7 +14,7 @@ const Events = () => {
       attendees: "200+",
       difficulty: "All Levels",
       link: "https://forms.gle/1JYbtSHaowKCnAit",
-      tentative: true,
+      tentative: false,
 
     },
     {
