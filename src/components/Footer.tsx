@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Code2, Github, Twitter, Instagram, Mail } from "lucide-react";
+import { Code2, Github, Twitter, Instagram, Mail, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -49,9 +49,9 @@ const Footer = () => {
             <h3 className="text-cyan-300 font-semibold mb-4 font-mono">Connect</h3>
             <div className="flex space-x-4">
               {[
-                { icon: Github, href: "https://github.com/code108rangers", color: "hover:text-gray-300" },
-                { icon: Twitter, href: "https://x.com/code_rangers/", color: "hover:text-blue-400" },
+                { icon: Linkedin, href: "https://www.linkedin.com/company/code-rangerss/", color: "hover:text-gray-300" },
                 { icon: Instagram, href: "https://www.instagram.com/geekroom.tiips/", color: "hover:text-pink-400" },
+                { icon: Twitter, href: "https://x.com/code_rangers/", color: "hover:text-blue-400" },
                 { icon: Mail, href:  "mailto:coderangerss@gmail.com", color: "hover:text-cyan-400" },
               ].map((social, index) => (
                 <a key={index} href={social.href} className={`text-gray-400 ${social.color} transition-colors duration-200`}>
