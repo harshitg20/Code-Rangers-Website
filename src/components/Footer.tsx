@@ -49,7 +49,7 @@ const Footer = () => {
             <h3 className="text-cyan-300 font-semibold mb-4 font-mono">Connect</h3>
             <div className="flex space-x-4">
               {[
-                { icon: Linkedin, href: "https://www.linkedin.com/company/code-rangerss/", color: "hover:text-gray-300" },
+                { icon: Linkedin, href: "https://www.linkedin.com/company/code-rangerss/", color: "hover:text-blue-600" },
                 { icon: Instagram, href: "https://www.instagram.com/geekroom.tiips/", color: "hover:text-pink-400" },
                 { icon: Twitter, href: "https://x.com/code_rangers/", color: "hover:text-blue-400" },
                 { icon: Mail, href:  "mailto:coderangerss@gmail.com", color: "hover:text-cyan-400" },
