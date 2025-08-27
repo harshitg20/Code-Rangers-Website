@@ -292,9 +292,7 @@ const Gallery = () => {
                   </div>
 
                   <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    {/*<button className="w-10 h-10 bg-black/50 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-black/70 transition-colors duration-200">
-                      <Play className="w-5 h-5 text-white" />
-                    </button>*/}
+                  
                   </div>
                 </div>
               </div>
@@ -303,25 +301,7 @@ const Gallery = () => {
         </div>
       </section>
 
-      {/* Virtual Tour CTA 
-      <section className="relative py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          <div className="bg-gradient-to-br from-gray-900/50 to-black/50 rounded-3xl p-12 border border-cyan-500/20 backdrop-blur-sm">
-            <Camera className="w-16 h-16 text-cyan-400 mx-auto mb-6 animate-pulse" />
-            <h2 className="text-3xl font-bold text-white mb-4">
-              Experience the <span className="text-cyan-400">Virtual Tour</span>
-            </h2>
-            <p className="text-gray-300 mb-8 text-lg">Can't visit in person? Take our immersive 360° virtual tour and explore every corner of our cyberpunk laboratory from anywhere in the world.</p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-purple-600 hover:to-cyan-500 transition-all duration-300 font-mono flex items-center justify-center">
-                <Play className="w-5 h-5 mr-2" />
-                START VIRTUAL TOUR
-              </button>
-              <button className="border border-cyan-500/50 text-cyan-400 px-8 py-4 rounded-xl font-semibold hover:bg-cyan-500/10 transition-all duration-300 font-mono">SCHEDULE VISIT</button>
-            </div>
-          </div>
-        </div>
-      </section>*/}
+     
     </div>
   );
 };
