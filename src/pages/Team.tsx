@@ -21,7 +21,6 @@ const Team = () => {
       role: "President",
       specialization: "Full-Stack Developer",
       image: T3,
-      // bio: "Quantum computing enthusiast with 5+ years in distributed systems. Built the club's entire infrastructure from scratch.",
       skills: ["JavaScript", "Web3", "React", "Node.js", "Java", "Kotlin"],
       social: {
         github: "https://github.com/harshitg20",
@@ -37,7 +36,6 @@ const Team = () => {
       role: "Vice-President",
       specialization: "AI & ML",
       image: T2,
-      //bio: "PhD candidate in Machine Learning. Published 12 papers on neural architecture search and automated ML.",
       skills: ["Python", "TensorFlow", "PyTorch", "Pandas", "Machine Learning"],
       social: {
         github: "https://github.com/dhruv108dstar",
@@ -53,7 +51,6 @@ const Team = () => {
       role: "Secretary",
       specialization: "Full-Stack Developer",
       image: T1,
-      //bio: "Certified Ethical Hacker with expertise in red team operations. Secured 50+ systems and trained 200+ students.",
       skills: ["JavaScript", "React", "Node.js", "DSA", "Java", "Python"],
       social: {
         github: "https://github.com/Varun15Gupta",
@@ -124,7 +121,6 @@ const Team = () => {
       role: "Tech Team Member",
       specialization: "Cloud Infrastructure",
       image: T6,
-      // skills: ["Kubernetes", "Terraform", "Jenkins", "GCP"],
       icon: (
         <a href="https://www.linkedin.com/in/gaurav-kaushik-16a39530a/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
@@ -137,10 +133,8 @@ const Team = () => {
       role: "Tech Team Member",
       specialization: "Smart Contracts & DeFi",
       image: T7,
-      // skills: ["Solidity", "Web3.js", "Hardhat", "IPFS"],
       icon: (
         <a
-          // href="https://www.linkedin.com/in/varun-gupta-3b5779239/"
           target="_blank"
           rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
@@ -153,7 +147,6 @@ const Team = () => {
       role: "Event Coordinator Member",
       specialization: "Analytics & Visualization",
       image: T12,
-      // skills: ["Python", "R", "Tableau", "Spark"],
       icon: (
         <a href="https://www.linkedin.com/in/saksham-chauhan-b18bb5277/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
@@ -259,7 +252,6 @@ const Team = () => {
                   </div>
 
                   {/* Bio */}
-                  {/* <p className="text-gray-400 text-sm leading-relaxed mb-6 group-hover:text-gray-300 transition-colors duration-300">{member.bio}</p> */}
 
                   {/* Skills */}
                   <div className="mb-6">
@@ -314,15 +306,6 @@ const Team = () => {
                     <div className={`w-8 h-8 bg-gradient-to-br ${member.gradient} rounded-lg flex items-center justify-center`}>{member.icon}</div>
                   </div>
 
-                  {/* <p className="text-gray-400 text-sm mb-4 font-mono">{member.specialization}</p> */}
-
-                  {/* <div className="flex flex-wrap gap-1">
-                    {member.skills.map((skill, skillIndex) => (
-                      <span key={skillIndex} className="px-2 py-1 bg-gray-800/50 text-gray-300 text-xs rounded font-mono">
-                        {skill}
-                      </span>
-                    ))}
-                  </div> */}
                 </div>
               </div>
             ))}
@@ -341,13 +324,12 @@ const Team = () => {
             <p className="text-gray-300 mb-8 text-lg">We're always looking for passionate developers, designers, and tech enthusiasts to join our elite team. Bring your skills to the Squad.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://forms.gle/1JYbtSHaowKCnAit9" // TODO: Replace with your actual Google Form link
+                href="https://forms.gle/1JYbtSHaowKCnAit9" 
                 target="_blank"
                 rel="noopener noreferrer">
                 <button className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-purple-600 hover:to-cyan-500 transition-all duration-300 font-mono">APPLY NOW</button>
               </a>
-              {/* <button className="border border-cyan-500/50 text-cyan-400 px-8 py-4 rounded-xl font-semibold hover:bg-cyan-500/10 transition-all duration-300 font-mono">VIEW OPENINGS</button> */}
-            </div>
+              </div>
           </div>
         </div>
       </section>
