@@ -6,14 +6,14 @@ const Events = () => {
     {
       date: "Aug 26",
       time: "9:00AM",
-      title: "Azure Developer Day",
+      title: "Azure Developer Day X Orientataion",
       description: "This will be a 2-hour event designed to introduce college students to cutting-edge Azure technologies, real-world use cases, and cloud career opportunities, and also to internship opportunities in growing startups exclusively. The session will be delivered by experienced speakers from the Azure Developer Community.",
       type: "Workshop",
       color: "from-cyan-500 to-blue-500",
       location: "TIIPS Campus",
       attendees: "200+",
       difficulty: "Seminar Hall",
-      link: "https://forms.gle/1JYbtSHaowKCnAit",
+      link: "https://reskilll.com/event/azuredaytrinity",
       tentative: true,
 
     },
