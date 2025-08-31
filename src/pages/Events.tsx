@@ -20,8 +20,8 @@ const Events = () => {
     {
       date: "Sept 1",
       time: "10:00AM",
-      title: "Azure Developer Day",
-      description: "This will be a 2-hour event designed to introduce college students to cutting-edge Azure technologies, real-world use cases, and cloud career opportunities, and also to internship opportunities in growing startups exclusively. The session will be delivered by experienced speakers from the Azure Developer Community.",
+      title: "Smart India Hackathon",
+      description: "Smart India Hackathon (SIH) is a nationwide initiative by the Government of India to provide students a platform to solve pressing real-life problems.",
       type: "Workshop",
       color: "from-purple-500 to-pink-500",
       location: "Seminar Hall",
