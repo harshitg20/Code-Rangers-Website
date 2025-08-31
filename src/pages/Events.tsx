@@ -5,9 +5,9 @@ const Events = () => {
   const upcomingEvents = [
     {
       date: "3 Sep, 2025",
-      time: "9:00AM",
+      time: "11:00AM",
       title: "Azure Developer Day X Orientataion",
-      description: "This will be a 2-hour event designed to introduce college students to cutting-edge Azure technologies, real-world use cases, and cloud career opportunities, and also to internship opportunities in growing startups exclusively. The session will be delivered by experienced speakers from the Azure Developer Community.",
+      description: "A 2-hour session introducing students to cutting-edge Azure technologies, real-world use cases, and cloud career paths—plus an engaging orientation with fun activities, startup internship insights, and guidance from experienced Azure community speakers.",
       type: "Workshop",
       color: "from-cyan-500 to-blue-500",
       location: "TIIPS Campus",
