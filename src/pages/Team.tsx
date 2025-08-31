@@ -295,8 +295,8 @@ const Team = () => {
                 <div className={`absolute inset-0 bg-gradient-to-br ${member.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}></div>
 
                 <div className="relative z-10">
-                  <div className="flex items-center mb-4">
-                    <div className="w-16 h-16 rounded-full overflow-hidden border border-cyan-500/20 mr-4">
+                  <div className="flex flex-col items-center text-center mb-4">
+                    <div className="w-20 h-20 rounded-full overflow-hidden border border-cyan-500/20 mb-4">
                       <img src={member.image} alt={member.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
                     </div>
                     <div className="flex-1">
