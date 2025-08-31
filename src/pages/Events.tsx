@@ -18,11 +18,11 @@ const Events = () => {
 
     },
     {
-      date: "Sept 1",
+      date: "Sep,2025 12",
       time: "10:00AM",
       title: "Smart India Hackathon",
       description: "Smart India Hackathon (SIH) is a nationwide initiative by the Government of India to provide students a platform to solve pressing real-life problems.",
-      type: "Workshop",
+      type: "Hackathon",
       color: "from-purple-500 to-pink-500",
       location: "Seminar Hall",
       attendees: "100+",
