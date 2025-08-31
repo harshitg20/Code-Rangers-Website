@@ -4,7 +4,7 @@ import { Calendar, Clock, MapPin, Users, ExternalLink, Star, Zap, Code2, Brain }
 const Events = () => {
   const upcomingEvents = [
     {
-      date: "Aug 26",
+      date: "3 Sep, 2025",
       time: "9:00AM",
       title: "Azure Developer Day X Orientataion",
       description: "This will be a 2-hour event designed to introduce college students to cutting-edge Azure technologies, real-world use cases, and cloud career opportunities, and also to internship opportunities in growing startups exclusively. The session will be delivered by experienced speakers from the Azure Developer Community.",
