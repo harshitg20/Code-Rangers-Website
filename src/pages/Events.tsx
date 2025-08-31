@@ -6,13 +6,13 @@ const Events = () => {
     {
       date: "Aug 26",
       time: "9:00AM",
-      title: "India OnChain Summit 2025",
-      description: "A full-day Web3 & Blockchain campus drive featuring beginner-friendly sessions, live demos, AMA with experts, networking, swag drops, and hands-on learning — powered by Nexus Void AI & hosted by Code Rangers.",
-      type: "Hack-Day",
+      title: "Azure Developer Day",
+      description: "This will be a 2-hour event designed to introduce college students to cutting-edge Azure technologies, real-world use cases, and cloud career opportunities, and also to internship opportunities in growing startups exclusively. The session will be delivered by experienced speakers from the Azure Developer Community.",
+      type: "Workshop",
       color: "from-cyan-500 to-blue-500",
       location: "TIIPS Campus",
       attendees: "200+",
-      difficulty: "All Levels",
+      difficulty: "Seminar Hall",
       link: "https://forms.gle/1JYbtSHaowKCnAit",
       tentative: true,
 
