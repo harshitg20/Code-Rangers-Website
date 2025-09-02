@@ -130,7 +130,7 @@ const Team = () => {
     },
     {
       name: "Ankit Kumar",
-      role: "Tech Team Member",
+      role: "Event Coordinator Member",
       specialization: "Smart Contracts & DeFi",
       image: T7,
       icon: (
