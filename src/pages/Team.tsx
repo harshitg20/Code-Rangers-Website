@@ -117,6 +117,18 @@ const Team = () => {
       gradient: "",
     },
     {
+      name: "Akshara Pathak",
+      role: "Design Co-Lead",
+      specialization: "Cloud Infrastructure",
+      image: T6,
+      icon: (
+        <a href="https://www.linkedin.com/in/gaurav-kaushik-16a39530a/" target="_blank" rel="noopener noreferrer">
+          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
+        </a>
+      ),
+      gradient: "",
+    },
+    {
       name: "Divina Khattar",
       role: "Design Member",
       specialization: "Distributed Systems",
@@ -144,8 +156,8 @@ const Team = () => {
       gradient: "",
     },
     {
-      name: "Saksham",
-      role: "Event Coordinator Member",
+      name: "Akash Yadav",
+      role: "Devlopment Member",
       specialization: "Analytics & Visualization",
       image: T12,
       icon: (
@@ -176,18 +188,6 @@ const Team = () => {
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="https://www.linkedin.com/in/aashish-dagar-aaba451b3/" target="_blank" rel="noopener noreferrer">
-          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
-        </a>
-      ),
-      gradient: "",
-    },
-    {
-      name: "Gaurav Kaushik",
-      role: "Tech Team Member",
-      specialization: "Cloud Infrastructure",
-      image: T6,
-      icon: (
-        <a href="https://www.linkedin.com/in/gaurav-kaushik-16a39530a/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
