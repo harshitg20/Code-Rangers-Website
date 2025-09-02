@@ -14,6 +14,12 @@ import T11 from "../assets/Team/T11.jpg";
 import T12 from "../assets/Team/T12.jpg";
 import T13 from "../assets/Team/T13.jpg";
 import T14 from "../assets/Team/T14.jpg";
+import T20 from "../assets/Team/T20.jpg";
+import T21 from "../assets/Team/T21.jpg";
+import T25 from "../assets/Team/T25.jpg";
+import T30 from "../assets/Team/T30.jpg";
+import T40 from "../assets/Team/T40.jpg";
+
 const Team = () => {
   const leadership = [
     {
@@ -68,10 +74,10 @@ const Team = () => {
       name: "Punit Kumar",
       role: "Devlopment Lead",
       specialization: "Embedded Systems",
-      image: T5,
+      image: T21,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/samiran-das-33531123b/" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -107,10 +113,10 @@ const Team = () => {
       name: "Sneha Santra",
       role: "Devlopment Co-Lead",
       specialization: "Embedded Systems",
-      image: T11,
+      image: T30,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/dev-goel-758263314/" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -120,14 +126,15 @@ const Team = () => {
       name: "Akshara Pathak",
       role: "Design Co-Lead",
       specialization: "Cloud Infrastructure",
-      image: T6,
+      image: T25,
       icon: (
-        <a href="https://www.linkedin.com/in/gaurav-kaushik-16a39530a/" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
       gradient: "",
-    },{
+    },
+    {
       name: "Aashish Dagar",
       role: "Event Coordinator Co-Lead",
       specialization: "Embedded Systems",
@@ -140,12 +147,12 @@ const Team = () => {
       ),
       gradient: "",
     },
-    
+
     {
       name: "Akash Yadav",
       role: "Devlopment Member",
       specialization: "Analytics & Visualization",
-      image: T12,
+      image: T40,
       icon: (
         <a href="https://www.linkedin.com/in/saksham-chauhan-b18bb5277/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
@@ -173,7 +180,7 @@ const Team = () => {
       image: T14,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/varun-gupta-3b5779239/" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -183,10 +190,10 @@ const Team = () => {
       name: "Bhumi Sharma",
       role: "Event Coordinator Member",
       specialization: "Embedded Systems",
-      image: T14,
+      image: T20,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/varun-gupta-3b5779239/" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -199,7 +206,7 @@ const Team = () => {
       image: T13,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/varun-gupta-3b5779239/" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -211,9 +218,7 @@ const Team = () => {
       specialization: "Smart Contracts & DeFi",
       image: T7,
       icon: (
-        <a
-          target="_blank"
-          rel="noopener noreferrer">
+        <a target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
