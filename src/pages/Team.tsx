@@ -65,13 +65,26 @@ const Team = () => {
 
   const coreTeam = [
     {
-      name: "Samiran Das",
+      name: "Punit Kumar",
       role: "Devlopment Lead",
       specialization: "Embedded Systems",
       image: T5,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="https://www.linkedin.com/in/samiran-das-33531123b/" target="_blank" rel="noopener noreferrer">
+          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
+        </a>
+      ),
+      gradient: "",
+    },
+    {
+      name: "Mani Goel",
+      role: "Design Lead",
+      specialization: "Embedded Systems",
+      image: T8,
+      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
+      icon: (
+        <a href="https://www.linkedin.com/in/mani-goel-8709b6327/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -89,15 +102,15 @@ const Team = () => {
         </a>
       ),
       gradient: "",
-    }, 
+    },
     {
-      name: "Mani Goel",
-      role: "Design Lead",
+      name: "Sneha Santra",
+      role: "Devlopment Co-Lead",
       specialization: "Embedded Systems",
-      image: T8,
+      image: T11,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/mani-goel-8709b6327/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/dev-goel-758263314/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -111,31 +124,6 @@ const Team = () => {
       skills: ["Go", "PostgreSQL", "Docker", "AWS"],
       icon: (
         <a href="https://www.linkedin.com/in/divina-khattar-555939360/" target="_blank" rel="noopener noreferrer">
-          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
-        </a>
-      ),
-      gradient: "",
-    },
-    {
-      name: "Dev Goel",
-      role: "Treasurer",
-      specialization: "Embedded Systems",
-      image: T11,
-      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
-      icon: (
-        <a href="https://www.linkedin.com/in/dev-goel-758263314/" target="_blank" rel="noopener noreferrer">
-          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
-        </a>
-      ),
-      gradient: "",
-    },
-    {
-      name: "Gaurav Kaushik",
-      role: "Tech Team Member",
-      specialization: "Cloud Infrastructure",
-      image: T6,
-      icon: (
-        <a href="https://www.linkedin.com/in/gaurav-kaushik-16a39530a/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -188,6 +176,18 @@ const Team = () => {
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="https://www.linkedin.com/in/aashish-dagar-aaba451b3/" target="_blank" rel="noopener noreferrer">
+          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
+        </a>
+      ),
+      gradient: "",
+    },
+    {
+      name: "Gaurav Kaushik",
+      role: "Tech Team Member",
+      specialization: "Cloud Infrastructure",
+      image: T6,
+      icon: (
+        <a href="https://www.linkedin.com/in/gaurav-kaushik-16a39530a/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
