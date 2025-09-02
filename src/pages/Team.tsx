@@ -127,21 +127,20 @@ const Team = () => {
         </a>
       ),
       gradient: "",
-    },
-    {
-      name: "Ankit Kumar",
-      role: "Event Coordinator Member",
-      specialization: "Smart Contracts & DeFi",
-      image: T7,
+    },{
+      name: "Aashish Dagar",
+      role: "Event Coordinator Co-Lead",
+      specialization: "Embedded Systems",
+      image: T9,
+      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a
-          target="_blank"
-          rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/aashish-dagar-aaba451b3/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
       gradient: "",
     },
+    
     {
       name: "Akash Yadav",
       role: "Devlopment Member",
@@ -181,20 +180,21 @@ const Team = () => {
       gradient: "",
     },
     {
-      name: "Aashish Dagar",
-      role: "Event Coordinator Co-Lead",
-      specialization: "Embedded Systems",
-      image: T9,
-      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
+      name: "Ankit Kumar",
+      role: "Event Coordinator Member",
+      specialization: "Smart Contracts & DeFi",
+      image: T7,
       icon: (
-        <a href="https://www.linkedin.com/in/aashish-dagar-aaba451b3/" target="_blank" rel="noopener noreferrer">
+        <a
+          target="_blank"
+          rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
       gradient: "",
     },
     {
-      name: "Srishti",
+      name: "Bhumi Sharma",
       role: "Event Coordinator Member",
       specialization: "Embedded Systems",
       image: T14,
@@ -205,20 +205,7 @@ const Team = () => {
         </a>
       ),
       gradient: "",
-     },
-    // {
-    //   name: "Srishti",
-    //   role: "Event Coordinator Member",
-    //   specialization: "Embedded Systems",
-    //   image: T14,
-    //   skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
-    //   icon: (
-    //     <a href="https://www.linkedin.com/in/varun-gupta-3b5779239/" target="_blank" rel="noopener noreferrer">
-    //       <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
-    //     </a>
-    //   ),
-    //   gradient: "",
-    // },
+    },
     // {
     //   name: "Srishti",
     //   role: "Event Coordinator Member",
