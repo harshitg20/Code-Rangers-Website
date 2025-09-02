@@ -129,19 +129,6 @@ const Team = () => {
       gradient: "",
     },
     {
-      name: "Divina Khattar",
-      role: "Design Member",
-      specialization: "Distributed Systems",
-      image: T4,
-      skills: ["Go", "PostgreSQL", "Docker", "AWS"],
-      icon: (
-        <a href="https://www.linkedin.com/in/divina-khattar-555939360/" target="_blank" rel="noopener noreferrer">
-          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
-        </a>
-      ),
-      gradient: "",
-    },
-    {
       name: "Ankit Kumar",
       role: "Event Coordinator Member",
       specialization: "Smart Contracts & DeFi",
@@ -162,6 +149,19 @@ const Team = () => {
       image: T12,
       icon: (
         <a href="https://www.linkedin.com/in/saksham-chauhan-b18bb5277/" target="_blank" rel="noopener noreferrer">
+          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
+        </a>
+      ),
+      gradient: "",
+    },
+    {
+      name: "Divina Khattar",
+      role: "Design Member",
+      specialization: "Distributed Systems",
+      image: T4,
+      skills: ["Go", "PostgreSQL", "Docker", "AWS"],
+      icon: (
+        <a href="https://www.linkedin.com/in/divina-khattar-555939360/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
