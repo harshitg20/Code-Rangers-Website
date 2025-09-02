@@ -89,6 +89,19 @@ const Team = () => {
         </a>
       ),
       gradient: "",
+    }, 
+    {
+      name: "Mani Goel",
+      role: "Design Lead",
+      specialization: "Embedded Systems",
+      image: T8,
+      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
+      icon: (
+        <a href="https://www.linkedin.com/in/mani-goel-8709b6327/" target="_blank" rel="noopener noreferrer">
+          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
+        </a>
+      ),
+      gradient: "",
     },
     {
       name: "Divina Khattar",
@@ -162,20 +175,6 @@ const Team = () => {
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
         <a href="https://www.linkedin.com/in/varun-gupta-3b5779239/" target="_blank" rel="noopener noreferrer">
-          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
-        </a>
-      ),
-      gradient: "",
-    },
-
-    {
-      name: "Mani Goel",
-      role: "Design Lead",
-      specialization: "Embedded Systems",
-      image: T8,
-      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
-      icon: (
-        <a href="https://www.linkedin.com/in/mani-goel-8709b6327/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
