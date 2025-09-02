@@ -92,7 +92,7 @@ const Team = () => {
     },
     {
       name: "Divina Khattar",
-      role: "Design Lead",
+      role: "Design Member",
       specialization: "Distributed Systems",
       image: T4,
       skills: ["Go", "PostgreSQL", "Docker", "AWS"],
@@ -170,7 +170,7 @@ const Team = () => {
 
     {
       name: "Mani Goel",
-      role: "Design Team Member",
+      role: "Design Lead",
       specialization: "Embedded Systems",
       image: T8,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
@@ -183,7 +183,7 @@ const Team = () => {
     },
     {
       name: "Aashish Dagar",
-      role: "Media Team",
+      role: "Event Coordinator Co-Lead",
       specialization: "Embedded Systems",
       image: T9,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
