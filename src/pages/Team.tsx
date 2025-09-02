@@ -194,6 +194,19 @@ const Team = () => {
       gradient: "",
     },
     {
+      name: "Srishti",
+      role: "Event Coordinator Member",
+      specialization: "Embedded Systems",
+      image: T14,
+      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
+      icon: (
+        <a href="https://www.linkedin.com/in/varun-gupta-3b5779239/" target="_blank" rel="noopener noreferrer">
+          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
+        </a>
+      ),
+      gradient: "",
+    },
+    {
       name: "Bhumi Sharma",
       role: "Event Coordinator Member",
       specialization: "Embedded Systems",
@@ -206,19 +219,6 @@ const Team = () => {
       ),
       gradient: "",
     },
-    // {
-    //   name: "Srishti",
-    //   role: "Event Coordinator Member",
-    //   specialization: "Embedded Systems",
-    //   image: T14,
-    //   skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
-    //   icon: (
-    //     <a href="https://www.linkedin.com/in/varun-gupta-3b5779239/" target="_blank" rel="noopener noreferrer">
-    //       <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
-    //     </a>
-    //   ),
-    //   gradient: "",
-    // },
     // {
     //   name: "Srishti",
     //   role: "Event Coordinator Member",
