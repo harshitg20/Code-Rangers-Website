@@ -65,8 +65,8 @@ const Team = () => {
 
   const coreTeam = [
     {
-      name: "Samiran Das",
-      role: "Tech Lead",
+      name: "Punit Kumar",
+      role: "Devlopment Lead",
       specialization: "Embedded Systems",
       image: T5,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
