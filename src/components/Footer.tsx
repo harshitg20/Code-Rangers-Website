@@ -50,7 +50,7 @@ const Footer = () => {
             <div className="flex space-x-4">
               {[
                 { icon: Linkedin, href: "https://www.linkedin.com/company/code-rangerss/", color: "hover:text-blue-600" },
-                { icon: Instagram, href: "https://www.instagram.com/geekroom.tiips/", color: "hover:text-pink-400" },
+                { icon: Instagram, href: "https://www.instagram.com/code_rangerss/", color: "hover:text-pink-400" },
                 { icon: Twitter, href: "https://x.com/code_rangers/", color: "hover:text-blue-400" },
                 { icon: Mail, href:  "mailto:coderangerss@gmail.com", color: "hover:text-cyan-400" },
               ].map((social, index) => (
