@@ -51,7 +51,7 @@ const Footer = () => {
               {[
                 { icon: Github, href: "https://github.com/code108rangers", color: "hover:text-gray-300" },
                 { icon: Twitter, href: "https://x.com/code_rangers/", color: "hover:text-blue-400" },
-                { icon: Instagram, href: "https://www.instagram.com/geekroom.tiips/", color: "hover:text-pink-400" },
+                { icon: Instagram, href: "https://www.instagram.com/code_rangerss/", color: "hover:text-pink-400" },
                 { icon: Mail, href: "coderangerss@gmail.com", color: "hover:text-cyan-400" },
               ].map((social, index) => (
                 <a key={index} href={social.href} className={`text-gray-400 ${social.color} transition-colors duration-200`}>
