@@ -14,6 +14,12 @@ import T11 from "../assets/Team/T11.jpg";
 import T12 from "../assets/Team/T12.jpg";
 import T13 from "../assets/Team/T13.jpg";
 import T14 from "../assets/Team/T14.jpg";
+import T20 from "../assets/Team/T20.jpg";
+import T21 from "../assets/Team/T21.jpg";
+import T25 from "../assets/Team/T25.jpg";
+import T30 from "../assets/Team/T30.jpg";
+import T40 from "../assets/Team/T40.jpg";
+
 const Team = () => {
   const leadership = [
     {
@@ -21,7 +27,6 @@ const Team = () => {
       role: "President",
       specialization: "Full-Stack Developer",
       image: T3,
-      // bio: "Quantum computing enthusiast with 5+ years in distributed systems. Built the club's entire infrastructure from scratch.",
       skills: ["JavaScript", "Web3", "React", "Node.js", "Java", "Kotlin"],
       social: {
         github: "https://github.com/harshitg20",
@@ -37,7 +42,6 @@ const Team = () => {
       role: "Vice-President",
       specialization: "AI & ML",
       image: T2,
-      //bio: "PhD candidate in Machine Learning. Published 12 papers on neural architecture search and automated ML.",
       skills: ["Python", "TensorFlow", "PyTorch", "Pandas", "Machine Learning"],
       social: {
         github: "https://github.com/dhruv108dstar",
@@ -53,7 +57,6 @@ const Team = () => {
       role: "Secretary",
       specialization: "Full-Stack Developer",
       image: T1,
-      //bio: "Certified Ethical Hacker with expertise in red team operations. Secured 50+ systems and trained 200+ students.",
       skills: ["JavaScript", "React", "Node.js", "DSA", "Java", "Python"],
       social: {
         github: "https://github.com/Varun15Gupta",
@@ -68,13 +71,26 @@ const Team = () => {
 
   const coreTeam = [
     {
-      name: "Samiran Das",
-      role: "Tech Lead",
+      name: "Punit Kumar",
+      role: "Devlopment Lead",
       specialization: "Embedded Systems",
-      image: T5,
+      image: T21,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/samiran-das-33531123b/" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
+        </a>
+      ),
+      gradient: "",
+    },
+    {
+      name: "Mani Goel",
+      role: "Design Lead",
+      specialization: "Embedded Systems",
+      image: T8,
+      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
+      icon: (
+        <a href="https://www.linkedin.com/in/mani-goel-8709b6327/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -94,66 +110,49 @@ const Team = () => {
       gradient: "",
     },
     {
-      name: "Divina Khattar",
-      role: "Design Lead",
-      specialization: "Distributed Systems",
-      image: T4,
-      skills: ["Go", "PostgreSQL", "Docker", "AWS"],
-      icon: (
-        <a href="https://www.linkedin.com/in/divina-khattar-555939360/" target="_blank" rel="noopener noreferrer">
-          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
-        </a>
-      ),
-      gradient: "",
-    },
-    {
-      name: "Dev Goel",
-      role: "Treasurer",
+      name: "Sneha Santra",
+      role: "Devlopment Co-Lead",
       specialization: "Embedded Systems",
-      image: T11,
+      image: T30,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/dev-goel-758263314/" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
       gradient: "",
     },
     {
-      name: "Gaurav Kaushik",
-      role: "Tech Team Member",
+      name: "Akshara Pathak",
+      role: "Design Co-Lead",
       specialization: "Cloud Infrastructure",
-      image: T6,
-      // skills: ["Kubernetes", "Terraform", "Jenkins", "GCP"],
+      image: T25,
       icon: (
-        <a href="https://www.linkedin.com/in/gaurav-kaushik-16a39530a/" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
       gradient: "",
     },
     {
-      name: "Ankit Kumar",
-      role: "Tech Team Member",
-      specialization: "Smart Contracts & DeFi",
-      image: T7,
-      // skills: ["Solidity", "Web3.js", "Hardhat", "IPFS"],
+      name: "Aashish Dagar",
+      role: "Event Coordinator Co-Lead",
+      specialization: "Embedded Systems",
+      image: T9,
+      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a
-          // href="https://www.linkedin.com/in/varun-gupta-3b5779239/"
-          target="_blank"
-          rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/aashish-dagar-aaba451b3/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
       gradient: "",
     },
+
     {
-      name: "Saksham",
-      role: "Event Coordinator Member",
+      name: "Akash Yadav",
+      role: "Devlopment Member",
       specialization: "Analytics & Visualization",
-      image: T12,
-      // skills: ["Python", "R", "Tableau", "Spark"],
+      image: T40,
       icon: (
         <a href="https://www.linkedin.com/in/saksham-chauhan-b18bb5277/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
@@ -162,40 +161,13 @@ const Team = () => {
       gradient: "",
     },
     {
-      name: "Nadish",
-      role: "Event Coordinator Member",
-      specialization: "Embedded Systems",
-      image: T13,
-      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
+      name: "Divina Khattar",
+      role: "Design Member",
+      specialization: "Distributed Systems",
+      image: T4,
+      skills: ["Go", "PostgreSQL", "Docker", "AWS"],
       icon: (
-        <a href="https://www.linkedin.com/in/varun-gupta-3b5779239/" target="_blank" rel="noopener noreferrer">
-          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
-        </a>
-      ),
-      gradient: "",
-    },
-
-    {
-      name: "Mani Goel",
-      role: "Design Team Member",
-      specialization: "Embedded Systems",
-      image: T8,
-      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
-      icon: (
-        <a href="https://www.linkedin.com/in/mani-goel-8709b6327/" target="_blank" rel="noopener noreferrer">
-          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
-        </a>
-      ),
-      gradient: "",
-    },
-    {
-      name: "Aashish Dagar",
-      role: "Media Team",
-      specialization: "Embedded Systems",
-      image: T9,
-      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
-      icon: (
-        <a href="https://www.linkedin.com/in/aashish-dagar-aaba451b3/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/divina-khattar-555939360/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -208,7 +180,45 @@ const Team = () => {
       image: T14,
       skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
       icon: (
-        <a href="https://www.linkedin.com/in/varun-gupta-3b5779239/" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
+        </a>
+      ),
+      gradient: "",
+    },
+    {
+      name: "Bhumi Sharma",
+      role: "Event Coordinator Member",
+      specialization: "Embedded Systems",
+      image: T20,
+      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
+      icon: (
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
+        </a>
+      ),
+      gradient: "",
+    },
+    {
+      name: "Nadish",
+      role: "Event Coordinator Member",
+      specialization: "Embedded Systems",
+      image: T13,
+      skills: ["Arduino", "Raspberry Pi", "C++", "MQTT"],
+      icon: (
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
+        </a>
+      ),
+      gradient: "",
+    },
+    {
+      name: "Ankit Kumar",
+      role: "Event Coordinator Member",
+      specialization: "Smart Contracts & DeFi",
+      image: T7,
+      icon: (
+        <a target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-5 h-5 text-blue-600 hover:text-blue-800" />
         </a>
       ),
@@ -259,7 +269,6 @@ const Team = () => {
                   </div>
 
                   {/* Bio */}
-                  {/* <p className="text-gray-400 text-sm leading-relaxed mb-6 group-hover:text-gray-300 transition-colors duration-300">{member.bio}</p> */}
 
                   {/* Skills */}
                   <div className="mb-6">
@@ -303,8 +312,8 @@ const Team = () => {
                 <div className={`absolute inset-0 bg-gradient-to-br ${member.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}></div>
 
                 <div className="relative z-10">
-                  <div className="flex items-center mb-4">
-                    <div className="w-16 h-16 rounded-full overflow-hidden border border-cyan-500/20 mr-4">
+                  <div className="flex flex-col items-center text-center mb-4">
+                    <div className="w-20 h-20 rounded-full overflow-hidden border border-cyan-500/20 mb-4">
                       <img src={member.image} alt={member.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
                     </div>
                     <div className="flex-1">
@@ -314,15 +323,6 @@ const Team = () => {
                     <div className={`w-8 h-8 bg-gradient-to-br ${member.gradient} rounded-lg flex items-center justify-center`}>{member.icon}</div>
                   </div>
 
-                  {/* <p className="text-gray-400 text-sm mb-4 font-mono">{member.specialization}</p> */}
-
-                  {/* <div className="flex flex-wrap gap-1">
-                    {member.skills.map((skill, skillIndex) => (
-                      <span key={skillIndex} className="px-2 py-1 bg-gray-800/50 text-gray-300 text-xs rounded font-mono">
-                        {skill}
-                      </span>
-                    ))}
-                  </div> */}
                 </div>
               </div>
             ))}
@@ -341,13 +341,12 @@ const Team = () => {
             <p className="text-gray-300 mb-8 text-lg">We're always looking for passionate developers, designers, and tech enthusiasts to join our elite team. Bring your skills to the Squad.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://forms.gle/1JYbtSHaowKCnAit9" // TODO: Replace with your actual Google Form link
+                href="https://forms.gle/1JYbtSHaowKCnAit9" 
                 target="_blank"
                 rel="noopener noreferrer">
                 <button className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-purple-600 hover:to-cyan-500 transition-all duration-300 font-mono">APPLY NOW</button>
               </a>
-              {/* <button className="border border-cyan-500/50 text-cyan-400 px-8 py-4 rounded-xl font-semibold hover:bg-cyan-500/10 transition-all duration-300 font-mono">VIEW OPENINGS</button> */}
-            </div>
+              </div>
           </div>
         </div>
       </section>

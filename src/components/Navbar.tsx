@@ -70,9 +70,17 @@ const Navbar = () => {
                 {item.label}
               </Link>
             ))}
+
             <div className="px-3 py-2">
-              <button className="w-full bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-6 py-2 rounded-lg font-semibold">Join Club</button>
-            </div>
+  <a
+    href="https://forms.gle/bKLj4hYJ3gV8zC3AA"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full block text-center bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-6 py-2 rounded-lg font-semibold"
+  >
+    Join Club
+  </a>
+</div>
           </div>
         </div>
       )}
