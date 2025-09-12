@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Code2, Github, Twitter, Instagram, Mail, Linkedin } from "lucide-react";
+import { Code2, Github, Twitter, Instagram, Mail, Linkedin, WhatsApp } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -49,6 +49,7 @@ const Footer = () => {
             <h3 className="text-cyan-300 font-semibold mb-4 font-mono">Connect</h3>
             <div className="flex space-x-4">
               {[
+                { icon: WhatsApp, href: "https://chat.whatsapp.com/EhJtXopUxnlEg9NS5dq9P6", color: "hover:text-green-400" },
                 { icon: Linkedin, href: "https://www.linkedin.com/company/code-rangerss/", color: "hover:text-blue-600" },
                 { icon: Instagram, href: "https://www.instagram.com/code_rangerss/", color: "hover:text-pink-400" },
                 { icon: Twitter, href: "https://x.com/code_rangers/", color: "hover:text-blue-400" },
